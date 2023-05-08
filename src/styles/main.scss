@@ -1,0 +1,29 @@
+@use "variables";
+@use "hero";
+@use "attractions";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: variables.$primary-color;
+  -webkit-font-smoothing: antialised;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+
+  @media (min-width: variables.$desktop-screen) {
+    max-width: 960px;
+    width: 100%;
+  }
+}

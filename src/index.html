@@ -4,9 +4,137 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles/main.scss" />
     <title>Aniversário</title>
   </head>
   <body>
-    <h1>Aniversário</h1>
+    <header class="hero">
+      <div class="container">
+        <img class="hero__logo" src="assets/balloons.png" alt="Balões" />
+
+        <h1 class="hero__description">
+          Tempo restante para o meu aniversário: <span>7d 15h 05min 23s</span>
+        </h1>
+
+        <div class="hero__info-bar">
+          <div class="hero__info-bar__item">
+            <strong>Localização</strong>
+            <p>Neo Química - Itaquera - São Paulo/SP</p>
+          </div>
+
+          <div class="hero__info-bar__item">
+            <strong>Preço</strong>
+            <p>A partir de R$20,00</p>
+          </div>
+
+          <div class="hero__info-bar__item">
+            <strong>Quando</strong>
+            <p>15/05/2023</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="attractions attractions--first attractions--hot-dog">
+      <div class="container" data-aos="fade-up">
+        <img
+          src="assets/hot-dogs.png"
+          alt="Cachorro quente"
+          class="attractions__image"
+        />
+
+        <div class="attractions__description">
+          <h2 class="attractions__description__title">Cachorro quente</h2>
+          <p class="attractions__description__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+            debitis corporis laborum porro sit adipisci ipsa autem asperiores
+            expedita placeat sed natus velit voluptate consequatur, eaque
+            deleniti sapiente fuga culpa. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Nulla debitis corporis laborum porro
+            sit adipisci ipsa autem asperiores expedita placeat sed natus velit
+            voluptate consequatur, eaque deleniti sapiente fuga culpa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="attractions attractions--playground">
+      <div class="container attractions--left" data-aos="fade-up">
+        <img
+          src="assets/playground.jpg"
+          alt="Cachorro quente"
+          class="attractions__image"
+        />
+
+        <div class="attractions__description">
+          <h2 class="attractions__description__title">Brinquedos</h2>
+          <p class="attractions__description__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+            debitis corporis laborum porro sit adipisci ipsa autem asperiores
+            expedita placeat sed natus velit voluptate consequatur, eaque
+            deleniti sapiente fuga culpa. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Nulla debitis corporis laborum porro
+            sit adipisci ipsa autem asperiores expedita placeat sed natus velit
+            voluptate consequatur, eaque deleniti sapiente fuga culpa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="attractions attractions--cake">
+      <div class="container" data-aos="fade-up">
+        <img
+          src="assets/cake.jpeg"
+          alt="Cachorro quente"
+          class="attractions__image"
+        />
+
+        <div class="attractions__description">
+          <h2 class="attractions__description__title">Bolo</h2>
+          <p class="attractions__description__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+            debitis corporis laborum porro sit adipisci ipsa autem asperiores
+            expedita placeat sed natus velit voluptate consequatur, eaque
+            deleniti sapiente fuga culpa. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Nulla debitis corporis laborum porro
+            sit adipisci ipsa autem asperiores expedita placeat sed natus velit
+            voluptate consequatur, eaque deleniti sapiente fuga culpa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="attractions attractions--gifts">
+      <div class="container attractions--left" data-aos="fade-up">
+        <img
+          src="assets/gifts.jpg"
+          alt="Cachorro quente"
+          class="attractions__image"
+        />
+
+        <div class="attractions__description">
+          <h2 class="attractions__description__title">Lembrancinhas</h2>
+          <p class="attractions__description__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+            debitis corporis laborum porro sit adipisci ipsa autem asperiores
+            expedita placeat sed natus velit voluptate consequatur, eaque
+            deleniti sapiente fuga culpa. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Nulla debitis corporis laborum porro
+            sit adipisci ipsa autem asperiores expedita placeat sed natus velit
+            voluptate consequatur, eaque deleniti sapiente fuga culpa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
